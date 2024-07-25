@@ -19,7 +19,7 @@ const [startDate, setStartDate] = useState(false);
       </div>
     </div>
     <DatePicker 
-    className='w.full h-full' 
+    className='w-full h-full' 
     selected={startDate} 
     placeholderText='Check In'
     onChange={(date) => setStartDate(date)}

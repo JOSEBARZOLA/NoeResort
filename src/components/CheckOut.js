@@ -19,7 +19,7 @@ const [endDate, setEndDate] = useState(false);
       </div>
     </div>
     <DatePicker 
-    className='w.full h-full' 
+    className='w-full h-full' 
     selected={endDate} 
     placeholderText='Check Out'
     onChange={(date) => setEndDate(date)}
