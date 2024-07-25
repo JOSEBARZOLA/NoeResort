@@ -30,7 +30,7 @@ import {
 export const roomData = [
   {
     id: 1,
-    name: 'Superior Room',
+    name: 'Habitacion superior',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
     facilities: [
