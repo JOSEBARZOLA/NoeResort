@@ -25,9 +25,6 @@ setTotal(Number(adults[0]) + Number(kids[0]));
   setRooms(newRooms);
  
 };
-
-
-
   return (
   <RoomContext.Provider value={{rooms, adults, setAdults, kids, setKids, handleClick}}>
   {children}</RoomContext.Provider>);
