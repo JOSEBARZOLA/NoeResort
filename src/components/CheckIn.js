@@ -18,12 +18,7 @@ const [startDate, setStartDate] = useState(false);
         <BsCalendar className='text-accent text-base' />
       </div>
     </div>
-    <DatePicker 
-    className='w-full h-full' 
-    selected={startDate} 
-    placeholderText='Check In'
-    onChange={(date) => setStartDate(date)}
-    />
+    <DatePicker className='w-full h-full' selected={startDate} placeholderText='Check In' onChange={(date) => setStartDate(date)}/>
   </div>
   ) ;
 };
