@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 //logo
-import LogoWhite from '../assets/img/logo-white.svg';
-import LogoDark from '../assets/img/logo-dark.svg';
+import LogoWhite from '../assets/img/logo-white.png';
+import LogoDark from '../assets/img/logo-dark.png';
 
 const Header = () => {
   const [header, setHeader] = useState(false);
@@ -20,9 +20,9 @@ const Header = () => {
 {/* logo */}
 <a >
 {header ? (
-<img className='w-[160px]' src={LogoDark} />)
+<img className='w-[165px]' src={LogoDark} />)
 : 
-(<img className='w-[160px]' src={LogoWhite}/>
+(<img className='w-[165px]' src={LogoWhite}/>
 )}
 </a>
 {/*nav */}

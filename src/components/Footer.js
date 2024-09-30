@@ -1,6 +1,6 @@
 import React from 'react';
 //logo
-import LogoWhite from '../assets/img/logo-white.svg'
+import LogoWhite from '../assets/img/logo-white.png'
 
 const Footer = () => {
   return <footer className='bg-primary py-12'>
