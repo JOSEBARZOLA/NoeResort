@@ -27,7 +27,10 @@ return room.id === Number(id);
   const {name, description, facilities, imageLg, price } = room;
 
 
-  return <section>
+  return (
+     <section>
+    <ScrollToTop />
+
     {/* banner */}
     <div className='bg-room bg-cover bg-center h-[560px] relative flex justify-center items-center'>
     {/*overlay */}
@@ -113,7 +116,8 @@ return room.id === Number(id);
       </div>
     </div>
 
-  </section>;
+  </section>
+  );
 };
 
 export default RoomDetails;
