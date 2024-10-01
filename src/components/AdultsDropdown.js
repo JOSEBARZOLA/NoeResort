@@ -29,7 +29,7 @@ const AdultsDropdown = () => {
     <Menu.Item 
     onClick={()=>setAdults(li.name)}
 
-    as='li' className='border-b last-of-type:border-b-0 h-12 hover:bg-accent 
+    as='li' className='border-b last-of-type:border-b-0 h-12 hover:bg-pink-600 
     hover:text-white w-full flex justify-center items-center cursor-pointer' key={index}>
       
 
