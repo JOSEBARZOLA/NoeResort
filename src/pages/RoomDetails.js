@@ -69,6 +69,8 @@ return room.id === Number(id);
           {/*right */}
           <div className='w-full h-full lg:w-[40%]'> 
             {/* reservation */}
+            {/* 
+            
             <div className='py-8 px-6 bg-pink-300 mb-12'>
               <div className='flex flex-col space-y-4 mb-4'>
               <h3>Your reservation </h3>
@@ -88,7 +90,7 @@ return room.id === Number(id);
               <button className='btn btn-lg btn-primary w-full'>book now for ${price}</button>
             </div>
             {/*rules */}
-            <div>
+          <div>
               <h3 className='h3'>Hotel Rules</h3>
               <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Quis numquam doloremque non?
